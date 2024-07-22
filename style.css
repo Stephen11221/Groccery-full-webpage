@@ -34,3 +34,56 @@
 .scroll-up-bar a{
     float: right;
 }
+/*Media query small screen brakedown*/
+@media screen and (min-width: 500px ) and (max-width: 1000px) {
+    
+    .btn-toggle{
+        border: 2px solid green;
+    }
+    .btn-toggle:hover{
+        border:2px solid green;
+        background: rgba(0, 128, 0, 0.42);
+    }
+    .btn-toggle span{
+        color: green;
+        font-size: 1.8rem;
+    }
+    .offcanvas-header{
+        background: #00005756;
+        color: darkgreen;
+        animation: 12s wel ease-in-out;
+    }
+
+    @keyframes wel {
+        /*Different colors to top section*/
+      from{background: #00005756;}  
+      to{
+        background: #0c93059e;
+      }
+    } 
+
+    .offcanvas-body{
+        background: rgba(12, 54, 54, 0.096);
+    }
+    .dropdown-menu{
+
+        border: none;
+        background: rgba(12, 54, 54, 0.096);
+    }
+    
+    .active{
+        color: darkgreen;
+    }
+    .nav-link{
+        color: green;
+    }
+    /*Hovering navigation*/
+    .nav-link:hover{
+        color: darkcyan;
+    }
+    /*icon styling*/
+
+    .icon{
+        margin-top: 150px;
+    }
+}
