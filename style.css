@@ -1,0 +1,29 @@
+/*Animation text*/
+.animation-text{
+    animation: 101s ani-text infinite;
+    color: greenyellow;
+}
+@keyframes ani-text {
+    from{
+        color: greenyellow;
+        font-weight: bold;
+    }
+    to{
+        color: green;
+        font-weight: normal;
+    }
+}
+/*Styling icon */
+.icon span{
+    margin-left: 10px;
+    color: green;
+    border-radius: 80px;
+    background: greenyellow;
+    width: 50px;
+    padding: 10px 20px;
+}
+/*height OF homepage*/
+.home{
+    border-bottom: 1px solid green;
+    height: 70vh;
+}
