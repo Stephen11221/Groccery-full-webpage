@@ -100,7 +100,7 @@
         <section class="container home" id="home">
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>GET YOUR GROCCERY TO <br> AT YOUR PHONE AT AFFORDABLE PRICE  </h2>
+                    <h2 class="text-success">GET YOUR GROCCERY TO <br> AT YOUR PHONE AT AFFORDABLE PRICE  </h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quod tempora dignissimos nisi porro eius. Hic voluptatem, explicabo suscipit aut iste minima, quis fugiat, vitae inventore dignissimos tempora. Corporis, labore.</p>
                     <button class="btn btn-success text-light">Get started</button>
                 </div>
@@ -119,17 +119,140 @@
                 </div>
             </div>
         </section>
-        <section class="container category" id="categ">
-
+        <section class="container-fluid category" id="categ">
+            <h2 class="text-success text-center">Categorie  <br><div class="d-flex justify-content-center align-items-center" >
+                <div class="spinner-border text-success spinner-border-sm"
+                    role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            </h2>
+           <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="First slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="1"
+                    aria-label="Second slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="2"
+                    aria-label="Third slide"
+                ></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card text-start">
+                                <img class="card-img-top" src="images/category-1.png" alt="Title" />
+                               
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card text-start">
+                                <img class="card-img-top" src="images/category-2.png" alt="Title" />
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card text-start">
+                                <img class="card-img-top" src="images/category-3.png" alt="Title" />
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-visible text-success">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-visible text-success">Next</span>
+            </button>
+           </div>
+            
+            
         </section>
         <section class="container product" id="product">
-
+            <h2 class="text-center">Product part <i class="fa fa-pie-chart" aria-hidden="true"></i></h2>
+            <div class="row-2">
+                <div>
+                    <img src="images/product-1.png" alt="">
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+                <div>
+                    <img src="images/product-2.png" alt="">
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+                <div>
+                    <img src="images/product-3.png" alt="">
+                    
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+            </div>
+            <div class="row-2">
+                <div>
+                    <img src="images/product-4.png" alt="">
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+                <div>
+                    <img src="images/product-5.png" alt="">
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+                <div>
+                    <img src="images/product-6.png" alt="">
+                    <hr>
+                    <span class="text-muted">Prize ksh</span>
+                    <button class="btn btn-success text-light"> ADD CART</button>
+                </div>
+            </div> <br> 
+            <a href="product.html" class="btn btn-success show-prod text-light">Show more product</a>
+       
         </section>
     </div>
-    <nav class="navbar fixed-bottom navbar-expand-lg scroll-up-bar">
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-expand-sm scroll-up-bar">
       <div class="container-fluid">
 
             <div class="collapse justify-content-end navbar-collapse" id="navbarCollapse">
+       
                 <a href="#navbar" class=" btn btn-outline-primary rounded-pill "><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
 
             </div>
