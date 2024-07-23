@@ -1,3 +1,4 @@
+
 /*Animation text*/
 .animation-text{
     animation: 101s ani-text infinite;
@@ -25,7 +26,8 @@
 /*height OF homepage*/
 .home{
     border-bottom: 1px solid green;
-    height: 70vh;
+    min-height: 70vh;
+    padding-bottom: 100px;
     margin-top: 40px;
 }
 .scroll-up-bar{
@@ -62,6 +64,16 @@
     width: 280px;
     cursor: pointer;
     margin-top: 20px;
+}
+.icon-img{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    cursor: pointer;
+    background: green;
+    color: whitesmoke;
+    padding: 10px 10px;
+    border-radius: 90px;
 }
 /*btn Show product*/
 .show-prod{
@@ -121,7 +133,7 @@
     }
     /*Home styling  */
     .home{
-        height: 120vh;
+        min-height: 120vh;
     }
     .home button{
         margin-top: 30px;

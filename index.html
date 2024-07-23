@@ -12,7 +12,7 @@
 <body>
     <div class="container-fluid">
         <!--Navbar section-->
-        <nav class="navbar  navbar-expand-lg navbar-light bg-light " id="navbar">
+        <nav class="navbar  navbar-expand-lg  " id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand text-success" href="#" ><span class="animation-text">GROC</span>CERY</a>
                 <button
@@ -69,15 +69,15 @@
                                     class="dropdown-menu"
                                     aria-labelledby="dropdownId"
                                 >
-                                    <a class="dropdown-item" href="#"
+                                    <a class="dropdown-item" href="#categ"
                                         >Greens</a
                                     >
-                                    <a class="dropdown-item" href="#"
+                                    <a class="dropdown-item" href="#categ"
                                         >Category 2/Category 3</a
                                     >
                                 </div>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">Product</a>
+                                    <a href="#product" class="nav-link">Product</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="" class="nav-link">Contact us </a>
@@ -105,11 +105,51 @@
                     <button class="btn btn-success text-light">Get started</button>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card" style="width:25rem;">
-                      <img src="images/banner-1.jpg" class="card-img-top" alt="...">
+                    <div class="card" style="width:28rem; border: none; ">
+                      <img src="images/home-img.png" class="card-img-top" alt="...">
                     </div>
                 </div>
-            </div>
+            </div> <br> <br>
+            <!--Banners -->
+            <div class="row"> 
+                <div class="col-lg-6">
+                    <div class="card p-2 mb-3" style="max-width: 540px;" >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img
+                                    src="images/banner-2.jpg"
+                                    class="img-fluid rounded-start"
+                                    alt="Card title"
+                                />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Delivery </h5>
+                                    <p class="card-text">
+                                        Delivery is free withing Nairobi , kiambu and Machakos
+                                    </p>
+                                    <p class="card-text">
+                                        <small class="text-muted "
+                                            >Last updated 3 mins ago</small
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <div  class="card"style="   background-color:  orangered; border-color:   2 darkblue"   >
+                        <img class="card-img-top" src="images/banner-1.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title ">Trusted Groccery supplier  </h4>
+                            <p class="card-text">Affordable Groccery</p>
+                        </div>
+                    </div>
+                     
+                </div> 
+            </div> 
         </section>
         <section class="container p-3 about" id="about">
             <h4>About page </h4>
@@ -205,18 +245,21 @@
             <h2 class="text-center">Product part <i class="fa fa-pie-chart" aria-hidden="true"></i></h2>
             <div class="row-2">
                 <div>
+                    <span class="icon-img"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
                     <img src="images/product-1.png" alt="">
                     <hr>
                     <span class="text-muted">Prize ksh</span>
                     <button class="btn btn-success text-light"> ADD CART</button>
                 </div>
                 <div>
+                    <span class="icon-img"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span>
                     <img src="images/product-2.png" alt="">
                     <hr>
                     <span class="text-muted">Prize ksh</span>
                     <button class="btn btn-success text-light"> ADD CART</button>
                 </div>
                 <div>
+                    <span class="icon-img"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
                     <img src="images/product-3.png" alt="">
                     
                     <hr>
@@ -226,18 +269,21 @@
             </div>
             <div class="row-2">
                 <div>
+                    <span class="icon-img"><i class="fa fa-star-half" aria-hidden="true"></i></span>
                     <img src="images/product-4.png" alt="">
                     <hr>
                     <span class="text-muted">Prize ksh</span>
                     <button class="btn btn-success text-light"> ADD CART</button>
                 </div>
                 <div>
+                    <span class="icon-img"><i class="fa fa-shopping-basket" aria-hidden="true"></i></span>
                     <img src="images/product-5.png" alt="">
                     <hr>
                     <span class="text-muted">Prize ksh</span>
                     <button class="btn btn-success text-light"> ADD CART</button>
                 </div>
                 <div>
+                    <span class="icon-img"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
                     <img src="images/product-6.png" alt="">
                     <hr>
                     <span class="text-muted">Prize ksh</span>
@@ -247,6 +293,7 @@
             <a href="product.html" class="btn btn-success show-prod text-light">Show more product</a>
        
         </section>
+        
     </div>
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-expand-sm scroll-up-bar">
       <div class="container-fluid">
