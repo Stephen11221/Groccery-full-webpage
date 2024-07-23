@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bit-container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 220px;
+    background: green;
+    
+}
+.sidebar ul li{
+    margin-left: -28px;
+    padding: 10px 15px;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+.sidebar ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+.card-w{
+    width: 500px;
+}
+form{
+    width: 500px;
+}
+.result-table{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .sidebar{
+        width: 100px;
+
+    }
+    .sidebar ul li a{
+        font-size: 1.7rem;
+        padding-left: 10px;
+    }
+    .sidebar ul li a .name-p{
+        display: none;
+    }
+    .card-w{
+        width: 360px;
+        margin-top: 10px;
+    }
+    .m-scroll{
+        overflow-y: visible;
+    }
+    form{
+        width: 256px;
+    }
+    .result-table{
+        width: 250px;
+        margin-left: 10px;
+    }
+}
