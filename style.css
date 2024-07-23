@@ -2,6 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*navbar background*/
+.bg-green{
+    background: rgba(0, 128, 0, 0.434);
+}
 /*Animation text*/
 .animation-text{
     animation: 101s ani-text infinite;
