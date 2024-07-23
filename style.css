@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /*Animation text*/
 .animation-text{
     animation: 101s ani-text infinite;
@@ -85,8 +88,46 @@
 .show-prod{
     margin-bottom: 55px;
 }
+/*Contact page styling*/
+.box-info{
+    background: whitesmoke;
+    padding: 10px 12px;
+    border-radius: 15px ;
+    border:  1px solid green;
+}
+.box-info ul{
+    list-style: none;
+
+}
+.box-info ul li span{
+    background: green;
+    padding: 12px 15px;
+    border-radius: 80px;
+    color: azure;
+}
+.box-info ul li{
+    padding-left: 10px;
+    margin-top: 40px;
+}
+/*Footer styling*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    padding: 25px 10px;
+}
+footer ul li{
+    margin-top: 8px;
+}
+.social-icon  ul {
+     list-style: none;
+}
+.social-icon ul li span{
+    margin: 18px;
+}
 /*Media query small screen brakedown*/
-@media screen and (min-width: 500px ) and (max-width: 1000px) {
+@media screen and (min-width: 300px ) and (max-width: 700px) {
     /*navigation styling*/
     .btn-toggle{
         border: 2px solid green;
@@ -154,7 +195,15 @@
         margin-top: 20px;
         margin-left: 50px;
     }
-
+    footer{
+        display: flex;
+        padding: 30px 40px;
+        flex-direction: column;
+    }
+    footer div{
+        margin-top: 15px;
+        border-bottom: 1px solid white;
+    }
 }
 /*Extra styling for modals  */
 
