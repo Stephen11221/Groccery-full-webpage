@@ -15,6 +15,46 @@
         <nav class="navbar  navbar-expand-lg  " id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand text-success" href="#" ><span class="animation-text">GROC</span>CERY</a>
+                <!-- Modal trigger button -->
+                    <button type="button" class="btn btn-success sign-in-btn btn-lg" data-bs-toggle="modal"   data-bs-target="#modalId"> <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                        
+                        <!-- Modal Body -->
+                         <!--Added class to increase the size of modal-->
+                        <!-- if you want to close by clicking outside -->
+                    <div class="modal  fade" id="modalId" tabindex="-1" data-bs-backdrop="static"                
+                            data-bs-keyboard="false" role="dialog"  aria-labelledby="modalTitleId"aria-hidden="true">
+                            <div  class=" modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"       
+                                 role="document">
+                                <div class="modal-content  ">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-success " id="modalTitleId">
+                                            Create account 
+                                        </h5>
+                                        <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"
+                                        ></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="index.html">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <label for="name">Name</label>
+                                                    <input type="text" placeholder="@Grace" class="form-control border-success">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+                        
                 <button
                     class="navbar-toggler btn-toggle"
                     type="button"
@@ -42,7 +82,7 @@
                         ></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a
                                     class="nav-link "
@@ -82,15 +122,9 @@
                                 <li class="nav-item">
                                     <a href="" class="nav-link">Contact us </a>
                                 </li>
-                            </li>
-
+z                            </li>
                         </ul>
-                        <div class="d-flex icon">
-                           <span ><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                           <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                           <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                           <span><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -103,9 +137,20 @@
                     <h2 class="text-success">GET YOUR GROCCERY TO <br> AT YOUR PHONE AT AFFORDABLE PRICE  </h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, quod tempora dignissimos nisi porro eius. Hic voluptatem, explicabo suscipit aut iste minima, quis fugiat, vitae inventore dignissimos tempora. Corporis, labore.</p>
                     <button class="btn btn-success text-light">Get started</button>
+                    <!--Social media icon-->
+                    <br> <br>
+                    <h3 class="text-muted">Find us using the following</h3>
+                    <div class="d-flex icon">
+                        <span ><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        <span><i class="fa fa-whatsapp" aria-hidden="true"></i></span>
+                     </div>
+
                 </div>
                 <div class="col-lg-6">
-                    <div class="card" style="width:28rem; border: none; ">
+                    <div
+                     class="card" style="width:28rem; border: none; ">
                       <img src="images/home-img.png" class="card-img-top" alt="...">
                     </div>
                 </div>
@@ -293,7 +338,7 @@
             <a href="product.html" class="btn btn-success show-prod text-light">Show more product</a>
        
         </section>
-        
+
     </div>
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-expand-sm scroll-up-bar">
       <div class="container-fluid">
@@ -308,5 +353,16 @@
     
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js.map"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <!-- Calling bootstrap component  -->
+    <script>
+        const myModal = new bootstrap.Modal(
+            document.getElementById("modalId"),
+            options,
+        );
+    </script>
+
+
+
+
 </body>
 </html>
