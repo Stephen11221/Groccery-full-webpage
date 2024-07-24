@@ -61,6 +61,7 @@ body{
 .row-2 {
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .row-2 div{
@@ -132,6 +133,14 @@ footer ul li{
     margin: 18px;
 }
 /*Media query small screen brakedown*/
+@media screen and (max-width: 700px) {
+    .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
 @media screen and (min-width: 500px ) and (max-width: 700px) {
     /*navigation styling*/
     .btn-toggle{
