@@ -132,7 +132,7 @@ footer ul li{
     margin: 18px;
 }
 /*Media query small screen brakedown*/
-@media screen and (min-width: 300px ) and (max-width: 700px) {
+@media screen and (min-width: 500px ) and (max-width: 700px) {
     /*navigation styling*/
     .btn-toggle{
         border: 2px solid green;
